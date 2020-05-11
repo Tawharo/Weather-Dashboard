@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4bfa8ea42e.js" crossorigin="anonymous"></script>
+    <link href="../weather-dashboard2/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="title pt-2 pb-2">
+        <div class="container">
+            <h1 class="text-center text-black">Weather Dashboard</h1>
+        </div>
+        <br />
+    </div>
+    <div class="container-fluid container-aside">
+        <form class="form" action="">
+            <label class="search-ctiy" for=""><strong>Search for a City:</strong></label><br>
+            <input class="city-input" type="text" onfocus="this.value=''" value="">
+            <button id="searchBtn" class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+            <ul class="newCity">
+
+            </ul>
+        </form>
+    </div>
+    <div class="container-fluid container-main right">
+        <h2 class="city-data">City <span class="today"></span></h2><span class="side"><img class="sideIcon"></span>
+        <div class="temp"></div>
+        <div class="humidity"></div>
+        <div class="wind-speed"></div>
+        <div class="uv-index"></div>
+    </div>
+    <div class="container-fluid container-footer right">
+        <div>
+            <h1>5-Day Forecast:</h1>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../weather-dashboard2/app.js"></script>
+</body>
+
+</html>
