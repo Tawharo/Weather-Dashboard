@@ -1,85 +1,28 @@
 /* I can't get it to look like the EX, can't get it to be responsive either.*/
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.container-aside {
-    width: 20%;
-    height: 700px;
-    background-color: lightgrey;
-    float: left;
-}
-
-.container-main {
-    width: 65%;
-    height: 300px;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
-    margin-left: 25px;
-    margin-top: 10px;
-    float: left;
-}
-
-.container-footer {
-    width: 65%;
-    height: 300px;
-    margin-top: 10px;
-    margin-left: 12px;
-    float: left;
-}
-
-.city-input {
-    margin-left: 5px;
-    height: 38;
-}
-
-.search-city {
-    margin-left: 5px;
-}
-
-.city-data {
-    margin-left: 5px;
-}
-
-.text-black {
+#header {
+    text-align: center;
+    background-color: #055005;
     color: white;
-    margin-top: 20px;
-}
-
-.title {
-    background: black;
-}
-
-.bodyWidth {
-    margin-left: 10px;
-    margin-top: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.uv-index {
-    margin-left: 5px;
-
-}
-
-.index-color {
-    background: red;
-    color: white;
+    padding: 10px;
+  }
+  
+  #search-btn {
     padding: 5px;
-}
-
-.city-click {
-    background: white;
-    padding-left: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 2px;
-    color: gray
-}
-
-.newCity {
-    margin-top: 20px;
-}
+    background: #2196f3;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  #form {
+    margin-left: 20px;
+  }
+  
+  #forecast-icon {
+    height: 60px;
+    width: 60px;
+  }
+  
+  #forecast {
+    display: inline-block;
+  }
